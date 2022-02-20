@@ -22,7 +22,7 @@ import intelqol.utils.OpenSkyblockGui;
 
 import java.io.*;
 
-@Mod(modid = "timechanger", name = "RoseGold Addons", version = "2.1")
+@Mod(modid = "intelqol", name = "IntelQOL", version = "2.1")
 public class Main {
     public static GuiScreen display = null;
     public static Config configFile = Config.INSTANCE;
@@ -73,17 +73,17 @@ public class Main {
         ClientCommandHandler.instance.registerCommand(new WartSetup());
         ClientCommandHandler.instance.registerCommand(new UseCooldown());
 
-        keyBinds[0] = new KeyBinding("Custom Item Macro Toggle", Keyboard.KEY_NONE, "RoseGold Addons");
-        keyBinds[1] = new KeyBinding("Toggle Enderman Macro", Keyboard.KEY_NONE, "RoseGold Addons");
-        keyBinds[2] = new KeyBinding("Item Frame Aura", Keyboard.KEY_NONE, "RoseGold Addons");
-        keyBinds[3] = new KeyBinding("Powder Macro Toggle", Keyboard.KEY_NONE, "RoseGold Addons");
-        keyBinds[4] = new KeyBinding("AOTS SS Toggle", Keyboard.KEY_NONE, "RoseGold Addons");
-        keyBinds[5] = new KeyBinding("Soul Whip SS Toggle", Keyboard.KEY_NONE, "RoseGold Addons");
-        keyBinds[6] = new KeyBinding("Ghost Macro Toggle", Keyboard.KEY_NONE, "RoseGold Addons");
-        keyBinds[7] = new KeyBinding("Item Frame Legit Mode Toggle", Keyboard.KEY_NONE, "RoseGold Addons");
-        keyBinds[8] = new KeyBinding("Gemstone Smart Nuke", Keyboard.KEY_NONE, "RoseGold Addons");
-        keyBinds[9] = new KeyBinding("Wart Macro", Keyboard.KEY_NONE, "RoseGold Addons");
-        keyBinds[10] = new KeyBinding("Hardstone Macro", Keyboard.KEY_NONE, "RoseGold Addons");
+        keyBinds[0] = new KeyBinding("Custom Item Macro Toggle", Keyboard.KEY_NONE, "IntelQOL");
+        keyBinds[1] = new KeyBinding("Toggle Enderman Macro", Keyboard.KEY_NONE, "IntelQOL");
+        keyBinds[2] = new KeyBinding("Item Frame Aura", Keyboard.KEY_NONE, "IntelQOL");
+        keyBinds[3] = new KeyBinding("Powder Macro Toggle", Keyboard.KEY_NONE, "IntelQOL");
+        keyBinds[4] = new KeyBinding("AOTS SS Toggle", Keyboard.KEY_NONE, "IntelQOL");
+        keyBinds[5] = new KeyBinding("Soul Whip SS Toggle", Keyboard.KEY_NONE, "IntelQOL");
+        keyBinds[6] = new KeyBinding("Ghost Macro Toggle", Keyboard.KEY_NONE, "IntelQOL");
+        keyBinds[7] = new KeyBinding("Item Frame Legit Mode Toggle", Keyboard.KEY_NONE, "IntelQOL");
+        keyBinds[8] = new KeyBinding("Gemstone Smart Nuke", Keyboard.KEY_NONE, "IntelQOL");
+        keyBinds[9] = new KeyBinding("Wart Macro", Keyboard.KEY_NONE, "IntelQOL");
+        keyBinds[10] = new KeyBinding("Hardstone Macro", Keyboard.KEY_NONE, "IntelQOL");
 
         for (KeyBinding keyBind : keyBinds) {
             ClientRegistry.registerKeyBinding(keyBind);
