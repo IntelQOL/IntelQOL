@@ -21,7 +21,7 @@ import scala.actors.threadpool.Arrays;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Rosedrobe implements ICommand {
+public class Wardrobe implements ICommand {
     public static boolean openWardrobe = false;
     public static int slot = 0;
     int windowId;
